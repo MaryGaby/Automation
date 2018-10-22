@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3122" started-at="2018-10-22T02:48:04Z" finished-at="2018-10-22T02:48:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3122" started-at="2018-10-22T02:48:04Z" finished-at="2018-10-22T02:48:07Z">
+      <class name="ar.com.informatorio.RestAssured.InsumoTest">
+        <test-method status="PASS" signature="inicialize()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="inicialize" is-config="true" duration-ms="453" started-at="2018-10-21T23:48:04Z" finished-at="2018-10-21T23:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicialize -->
+        <test-method status="PASS" signature="addSupply()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="addSupply" duration-ms="2272" started-at="2018-10-21T23:48:05Z" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSupply -->
+        <test-method status="PASS" signature="inicialize()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="inicialize" is-config="true" duration-ms="0" started-at="2018-10-21T23:48:07Z" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicialize -->
+        <test-method status="PASS" signature="getAllSupplies()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="getAllSupplies" duration-ms="138" started-at="2018-10-21T23:48:07Z" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllSupplies -->
+        <test-method status="PASS" signature="getSuppliesByIdUsingPathParam()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="getSuppliesByIdUsingPathParam" duration-ms="41" started-at="2018-10-21T23:48:07Z" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSuppliesByIdUsingPathParam -->
+        <test-method status="PASS" signature="inicialize()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="inicialize" is-config="true" duration-ms="0" started-at="2018-10-21T23:48:07Z" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicialize -->
+        <test-method status="PASS" signature="getSupplies2ByIdUsingPathParam()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="getSupplies2ByIdUsingPathParam" duration-ms="60" started-at="2018-10-21T23:48:07Z" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSupplies2ByIdUsingPathParam -->
+        <test-method status="PASS" signature="inicialize()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="inicialize" is-config="true" duration-ms="0" started-at="2018-10-21T23:48:07Z" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicialize -->
+        <test-method status="PASS" signature="getByIdUsingQueryParam()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="getByIdUsingQueryParam" duration-ms="69" started-at="2018-10-21T23:48:07Z" depends-on-methods="ar.com.informatorio.RestAssured.InsumoTest.addSupply" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByIdUsingQueryParam -->
+        <test-method status="PASS" signature="inicialize()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="inicialize" is-config="true" duration-ms="0" started-at="2018-10-21T23:48:07Z" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicialize -->
+        <test-method status="PASS" signature="deleteSupply()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="deleteSupply" duration-ms="40" started-at="2018-10-21T23:48:07Z" depends-on-methods="ar.com.informatorio.RestAssured.InsumoTest.getByIdUsingQueryParam" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSupply -->
+        <test-method status="PASS" signature="inicialize()[pri:0, instance:ar.com.informatorio.RestAssured.InsumoTest@7ed7259e]" name="inicialize" is-config="true" duration-ms="0" started-at="2018-10-21T23:48:07Z" finished-at="2018-10-21T23:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicialize -->
+      </class> <!-- ar.com.informatorio.RestAssured.InsumoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
